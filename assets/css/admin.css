@@ -1,0 +1,109 @@
+.flex{
+    display: flex;
+}
+.flex-wrap{
+    flex-wrap: wrap;
+}
+.tsubaki-dashboard .flex{
+    display: flex !important;
+}
+.w-full{
+    width: 100%;
+}
+
+.tsubaki-dashboard tbody th {
+    display: none ;
+}
+.tsubaki-dashboard > .submit input {
+    padding: 10px 20px !important;!i;!;
+    border-radius: 14px;
+    box-shadow: 0 0 0;
+    border: 0 solid;
+    background: #1d2327;
+    transition: 0.3s;
+}
+
+
+
+.tsubaki-dashboard > .submit input:hover {
+    background: #1d2327;
+    opacity: 0.9;
+    transform: translateY(-2px);
+    border-radius: 20px;
+    transition: 0.8s;
+}
+
+.tsubaki-dashboard .btn{
+    padding: 15px 20px;
+    background: #dfdfdf;
+    margin-right: 10px;
+    border-radius: 14px;
+    color: black;
+    text-decoration: auto;
+    margin-top: 10px;
+    cursor: pointer;
+    border: 0;
+}
+.hidden{
+    display: none !important;
+    opacity: 0;
+    visibility: hidden;
+}
+.must-show{
+    display: block !important;
+    opacity: 1 !important;
+    visibility: visible !important;
+}
+.tabs-data-container{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 30px 20px 0 20px;
+    border: 1px solid #e2e2e2;
+    border-radius: 15px;
+    max-width: 250px;
+    width: calc(33% - 10px);
+    box-shadow: 0 10px 25px -12px #40404075;
+    box-sizing: border-box;
+    background: #fff;
+    margin:0 10px 20px;
+    position:relative;
+}
+.tabs-data-container input[type=text], .tabs-data-container select {
+    width: 100% !important;
+    border-radius: 16px;
+    padding: 10px 15px;
+    border: 1px solid #d5d5d5;
+}
+
+.tabs-data-container > * {
+    margin-bottom: 25px;
+}
+.tabs-field-container{
+    position: relative;
+}
+.tabs-field-container label{
+    position: absolute;
+    top: -12px;
+    right: 15px;
+    padding: 0 13px;
+    background: #fff;
+}
+.tab-link{
+    text-align: left;
+}
+.delete-tabs-container{
+    position: absolute;
+    top: -7px;
+    left: -7px;
+    width: 30px;
+    height: 30px;
+    padding: 0;
+    text-align: center;
+    border: 0;
+    border-radius: 10px;
+    font-size: 11px;
+    background: #cecece;
+    background: linear-gradient(135deg, rgb(218 218 218) 0%, rgb(255 255 255) 100%);
+    cursor: pointer;
+
+}
